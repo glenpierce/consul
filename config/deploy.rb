@@ -49,6 +49,7 @@ namespace :deploy do
   after :published, "delayed_job:restart"
   after :published, "refresh_sitemap"
 
+  before "deploy:restart", "smtp_secrets"
   before "deploy:restart", "setup_puma"
 
   after :finishing, "deploy:cleanup"
@@ -112,6 +113,16 @@ task :setup_puma do
 
       if test("[ -e #{shared_path}/sockets/unicorn.sock ]")
         execute "ln -sf #{shared_path}/tmp/sockets/puma.sock #{shared_path}/sockets/unicorn.sock; true"
+      end
+    end
+  end
+end
+
+task :smtp_secrets do
+  on roles(:app) do
+    within release_path do
+      with rails_env: fetch(:rails_env) do
+        execute :rake, "secrets:smtp"
       end
     end
   end
