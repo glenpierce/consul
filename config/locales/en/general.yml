@@ -108,10 +108,10 @@ en:
       recommendations:
         without_results: There are no debates related to your interests
         without_interests: Follow proposals so we can give you recommendations
-        disable: "Debates recommendations will stop showing if you dismiss them. You can enable them again in 'My account' page"
+        disable: "Discussions recommendations will stop showing if you dismiss them. You can enable them again in 'My account' page"
         actions:
           success: "Recommendations for debates are now disabled for this account"
-          error: "An error has occured. Please go to 'My account' page to manually disable recommendations for debates"
+          error: "An error has occured. Please go to 'My account' page to manually disable recommendations for discussions"
       search_form:
         button: Search
         placeholder: Search debates...
@@ -804,7 +804,7 @@ en:
       title: "Downloads"
       link:
         proposal: "Download proposals"
-        debate: "Download debates"
+        debate: "Download discussions"
         legislation_process: "Download legislation processes"
         budget: "Download budgets"
         investments: "Download projects"
@@ -870,7 +870,7 @@ en:
           other: "%{count} Comments"
         debates:
           one: 1 Debate
-          other: "%{count} Debates"
+          other: "%{count} Discussions"
         proposals:
           one: 1 Proposal
           other: "%{count} Proposals"
@@ -912,7 +912,7 @@ en:
   welcome:
     feed:
       most_active:
-        debates: "Most active debates"
+        debates: "Most active discussions"
         proposals: "Most active proposals"
         processes: "Open processes"
       see_all_debates: See all debates
@@ -969,7 +969,7 @@ en:
     score_negative: "No"
     content_title:
       proposal: "Proposal"
-      debate: "Debate"
+      debate: "Discussion"
       budget_investment: "Budget investment"
   admin/widget:
     header:

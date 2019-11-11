@@ -28,8 +28,8 @@ en:
         one: "Comment"
         other: "Comments"
       debate:
-        one: "Debate"
-        other: "Debates"
+        one: "Discussion"
+        other: "Discussions"
       tag:
         one: "Tag"
         other: "Tags"
@@ -223,7 +223,7 @@ en:
         terms_of_service: "Terms of service"
         title: "Title"
       debate/translation:
-        title: "Debate title"
+        title: "Discussion title"
         description: "Initial debate text"
       proposal:
         author: "Author"
@@ -248,7 +248,7 @@ en:
         password: "Password"
         current_password: "Current password"
         email_digest: "Receive a summary of proposal notifications"
-        email_on_comment: "Notify me by email when someone comments on my proposals or debates"
+        email_on_comment: "Notify me by email when someone comments on my proposals or discussions"
         email_on_comment_reply: "Notify me by email when someone replies to my comments"
         email_on_direct_message: "Receive emails about direct messages"
         newsletter: "Receive by email website relevant information"

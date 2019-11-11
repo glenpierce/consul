@@ -404,7 +404,7 @@ en:
         author: Author
         title: Debates
         no_debates: There is no debates.
-        link: "Download debates"
+        link: "Download discussions"
     hidden_debates:
       index:
         filter: Filter
@@ -661,7 +661,7 @@ en:
         information_texts: Custom information texts
         information_texts_menu:
           basic: "Basic customization"
-          debates: "Debates"
+          debates: "Discussions"
           community: "Community"
           proposals: "Proposals"
           polls: "Polls"
@@ -686,13 +686,13 @@ en:
       dashboard_actions: Resources and actions
       download_settings:
         title: "Download settings"
-        debates: "Debates"
+        debates: "Discussions"
         proposals: "Proposals"
         legislation_processes: "Legislation process"
         budget_investments: "Participatory budgeting"
         comments: "Comments"
         budget_investments_milestones: "Participatory budgeting (Milestones)"
-      debates: "Debates"
+      debates: "Discussions"
       comments: "Comments"
       local_census_records: Manage local census
     administrators:

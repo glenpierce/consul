@@ -3,7 +3,7 @@ en:
     actions:
       create:
         notice: "%{resource_name} created successfully."
-        debate: "Debate created successfully."
+        debate: "Discussion created successfully."
         direct_message: "You message has been sent successfully."
         poll: "Poll created successfully."
         poll_booth: "Booth created successfully."
@@ -20,7 +20,7 @@ en:
         notice: Changes saved
       update:
         notice: "%{resource_name} updated successfully."
-        debate: "Debate updated successfully."
+        debate: "Discussion updated successfully."
         poll: "Poll updated successfully."
         poll_booth: "Booth updated successfully."
         active_poll: "Polls description updated successfully."

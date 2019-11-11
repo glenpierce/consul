@@ -4,6 +4,51 @@
 # or operating system, you probably want to add a global ignore instead:
 #   git config --global core.excludesfile '~/.gitignore_global'
 
+/config/locales/ar/*
+/config/locales/ast/*
+/config/locales/bn-BD/*
+/config/locales/bs-BA/*
+/config/locales/ca/*
+/config/locales/cs-CZ/*
+/config/locales/da-DK/*
+/config/locales/de-DE/*
+/config/locales/el-GR/*
+/config/locales/en-GB/*
+/config/locales/es/*
+/config/locales/es-PE/*
+/config/locales/eu-ES/*
+/config/locales/fa-IR/*
+/config/locales/fi-FI/*
+/config/locales/fr/*
+/config/locales/gl/*
+/config/locales/he/*
+/config/locales/hr-HR/*
+/config/locales/hu-HU/*
+/config/locales/id-ID/*
+/config/locales/it/*
+/config/locales/mk-MK/*
+/config/locales/nl/*
+/config/locales/nn/*
+/config/locales/nn-NO/*
+/config/locales/pap-PAP/*
+/config/locales/pl-PL
+/config/locales/pt/*
+/config/locales/pt-BR/*
+/config/locales/ru/*
+/config/locales/sh-HR/*
+/config/locales/sl-SI/*
+/config/locales/so-SO/*
+/config/locales/sq-AL/*
+/config/locales/sr-CS/*
+/config/locales/sr-SP/*
+/config/locales/sv-FI/*
+/config/locales/sv-SE/*
+/config/locales/tr-TR/*
+/config/locales/val/*
+/config/locales/yi-DE/*
+/config/locales/zh-CN/*
+/config/locales/zh-TW/*
+
 # Ignore bundler config.
 /.bundle
 

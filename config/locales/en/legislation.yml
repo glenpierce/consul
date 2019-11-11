@@ -97,8 +97,8 @@ en:
       question:
         total:
           zero: No debates
-          one: "%{count} debate"
-          other: "%{count} debates"
+          one: "%{count} discussion"
+          other: "%{count} discussions"
         comments:
           zero: No comments
           one: "%{count} comment"
